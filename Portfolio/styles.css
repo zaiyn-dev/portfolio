@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Sintony&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap");
+
+* {
+  box-sizing: initial;
+  margin: 0;
+  padding: 0px 8px;
+  background-color: #fff;
+}
+
+li,
+a,
+button {
+  font-family: Sintony;
+  font-weight: 800;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navbar_links {
+  list-style: none;
+}
+
+.navbar_links li {
+  display: inline-block;
+}
+
+.navbar_links li a {
+  transition: all 0.2s ease 0s;
+}
+
+.navbar_links li a:hover {
+  color: rgb(76, 76, 77);
+}
+
+button {
+  margin-left: 0px;
+  padding: 9px 15px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgb(218, 214, 214);
+  color: rgb(0, 0, 0);
+}
+
+.box1 {
+  display: flex;
+  width: 1153px;
+  height: 123px;
+  background: #ebebeb;
+  mix-blend-mode: normal;
+  border-radius: 24px;
+  margin: auto;
+}
+
+.box1text {
+  font-family: Sintony;
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: left;
+}
+
+.box1text2 {
+  font-family: Sintony;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: left;
+}
+
+.head {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.fb {
+  width: 46.79px;
+  height: 46.79px;
+  margin-left: 00px;
+}
+
+.insta {
+  width: 46.79px;
+  height: 46.79px;
+  margin-right: 50px;
+}
+
+.linked {
+  width: 46.79px;
+  height: 46.79px;
+  margin-right: 50px;
+}
+
+.html {
+  width: 46.79px;
+  height: 46.79px;
+  margin-left: 00px;
+}
+
+.css {
+  width: 46.79px;
+  height: 46.79px;
+  margin-right: 50px;
+}
+
+.js {
+  width: 46.79px;
+  height: 46.79px;
+  margin-right: 50px;
+}
+
+.webdevtext {
+  font-family: Sintony;
+  font-weight: 900;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+}
